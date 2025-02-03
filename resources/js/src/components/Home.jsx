@@ -188,7 +188,7 @@ const Home = () => {
                                     <div
                                         className="categories__item set-bg"
                                         style={{
-                                            backgroundImage: `url(${baseUrl}/storage/images/categories/${category.img})`
+                                            backgroundImage: `url(${baseUrl}/storage/${category.img})`
                                         }}
                                     >
                                         <h5>
@@ -350,7 +350,7 @@ const Home = () => {
                                 <Link to={`/blog/${article.id}`} className="blog__item">
                                     <div className="blog__item__pic">
                                         <img
-                                            src={`${baseUrl}/storage/images/blog/${article.image}`}
+                                            src={`${baseUrl}/storage/${article.image}`}
                                             alt={article.title}
                                             style={{ width: '100%', height: 'auto' }} // Ensure image fits well
                                         />
