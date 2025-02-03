@@ -25,6 +25,6 @@
   <li><strong>Frontend:</strong> React</li>
   <li><strong>Database:</strong> MySQL or preferred relational database</li>
   <li><strong>Admin Panel:</strong> Filament for Laravel</li>
-  <li><strong>Image Hosting:</strong> AWS S3</li>
-  <li><strong>Deployment:</strong> Heroku</li>
+  <li><strong>Image Hosting:</strong> Local (To do S3, or other)</li>
+  <li><strong>Deployment:</strong> Local (To do)</li>
 </ul>
