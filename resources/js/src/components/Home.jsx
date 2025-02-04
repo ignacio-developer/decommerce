@@ -120,7 +120,7 @@ const Home = () => {
             <section className="hero">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-12">
                             <div className="hero__categories">
                                 <div className="hero__categories__all" onClick={toggleDropdown}>
                                     <i className="fa fa-bars"/>
@@ -135,73 +135,11 @@ const Home = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-9">
-                            <div className="hero__item" style={{
-                                backgroundImage: `url('.//images/products/banner.jpg')`,
-                            }}>
-                                <div className="hero__text">
-                                    <span>FRUIT FRESH</span>
-                                    <h2>
-                                        Vegetable <br/>
-                                        100% Organic
-                                    </h2>
-                                    <p>Free Pickup and Delivery Available</p>
-                                    <a href="/shop" className="primary-btn">
-                                        SHOP NOW
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
             {/* Hero Section End */}
-            {/* Categories Section Begin */}
-            <section className="categories">
-                <div className="container">
-                    <div className="row">
-                        <OwlCarousel
-                            key={categories.length}
-                            className='categories__slider owl-carousel'
-                            loop
-                            margin={10}
-                            nav
-                            smartSpeed={1000}
-                            autoplaySpeed={1000}
-                            autoplay
-                            autoplayTimeout={3000}
-                            autoplayHoverPause
-                            responsive={{
-                                0: {
-                                    items: 1,
-                                },
-                                600: {
-                                    items: 2,
-                                },
-                                1000: {
-                                    items: 4,
-                                }
-                            }}
-                        >
-                            {categories.map((category) => (
-                                <div key={category.id} className="item col-lg-3">
-                                    <div
-                                        className="categories__item set-bg"
-                                        style={{
-                                            backgroundImage: `url(${baseUrl}/storage/${category.img})`
-                                        }}
-                                    >
-                                        <h5>
-                                            <Link to={`/category/${category.id}`}>{category.name}</Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            ))}
-                        </OwlCarousel>
-                    </div>
-                </div>
-            </section>
-            {/* Categories Section End */}
+
             {/* Featured Section Begin */}
             <section className="featured spad">
                 <div className="container">
@@ -289,7 +227,7 @@ const Home = () => {
             </section>
             {/* Featured Section End */}
             {/* Banner Begin */}
-            <div className="banner">
+            <div className="banner spacing-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6">
@@ -306,6 +244,54 @@ const Home = () => {
                 </div>
             </div>
             {/* Banner End */}
+
+            {/* Categories Section Begin */}
+            <section className="categories spacing-padding">
+                <div className="container">
+                    <div className="row">
+                        <OwlCarousel
+                            key={categories.length}
+                            className='categories__slider owl-carousel'
+                            loop
+                            margin={10}
+                            nav
+                            smartSpeed={1000}
+                            autoplaySpeed={1000}
+                            autoplay
+                            autoplayTimeout={3000}
+                            autoplayHoverPause
+                            responsive={{
+                                0: {
+                                    items: 1,
+                                },
+                                600: {
+                                    items: 2,
+                                },
+                                1000: {
+                                    items: 4,
+                                }
+                            }}
+                        >
+                            {categories.map((category) => (
+                                <div key={category.id} className="item col-lg-3">
+                                    <div
+                                        className="categories__item set-bg"
+                                        style={{
+                                            backgroundImage: `url(${baseUrl}/storage/${category.img})`
+                                        }}
+                                    >
+                                        <h5>
+                                            <Link to={`/category/${category.id}`}>{category.name}</Link>
+                                        </h5>
+                                    </div>
+                                </div>
+                            ))}
+                        </OwlCarousel>
+                    </div>
+                </div>
+            </section>
+            {/* Categories Section End */}
+
             {/* Latest Product Section Begin */}
             <section className="latest-product spad">
                 <div className="container">
@@ -372,6 +358,36 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Hero Section Begin */}
+            {
+            /*
+            <section className="hero">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="hero__item" style={{
+                                backgroundImage: `url('.//images/products/banner.jpg')`,
+                            }}>
+                                <div className="hero__text">
+                                    <span>FRUIT FRESH</span>
+                                    <h2>
+                                        Vegetable <br/>
+                                        100% Organic
+                                    </h2>
+                                    <p>Free Pickup and Delivery Available</p>
+                                    <a href="/shop" className="primary-btn">
+                                        SHOP NOW
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            */
+            }
+            {/* Hero Section End */}
             <Footer/>
         </>
 

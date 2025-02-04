@@ -790,6 +790,11 @@ ol {
   Categories
 -----------------------*/
 
+.spacing-padding {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .categories__item {
     height: 270px;
     position: relative;
@@ -844,7 +849,7 @@ ol {
 -----------------------*/
 
 .featured {
-    padding-top: 80px;
+    padding-top: 0px;
     padding-bottom: 40px;
 }
 
@@ -1026,7 +1031,6 @@ ol {
 .latest-product {
     padding-top: 80px;
     padding-bottom: 0;
-    max-height: 520px;
 }
 
 
