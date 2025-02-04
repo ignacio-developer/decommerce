@@ -14,13 +14,8 @@
   <li><strong>Frontend with React:</strong> Fast, reactive interface that enhances user experience.</li>
 </ul>
 
-<h3>Key Features</h3>
-<ul>
-  <li><strong>Hosting on Heroku:</strong> The platform is hosted on <strong>Heroku</strong> for scalable and efficient deployment.</li>
-</ul>
-
 <p style="text-align: center; font-size: 18px; margin-top: 20px;">
-  🌐 <a href="http://localhost:8001/" target="_blank"><strong>Visit DEcommerce Platform</strong></a>
+  🌐 <a href="http://localhost:8001/" target="_blank"><strong>Visit DEcommerce Platform (not deployed yet?)</strong></a>
 </p>
 
 <h3>Technical Stack</h3>
