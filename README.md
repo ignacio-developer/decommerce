@@ -10,9 +10,13 @@
   <li><strong>Responsive Design:</strong> Fully responsive layout for mobile, tablet, and desktop users.</li>
   <li><strong>Filament Admin Panel:</strong> Easily manage products, categories, users, and orders through a powerful and user-friendly admin interface powered by Filament.</li>
   <li><strong>Cloud-Based Image Storage:</strong> Product images are securely uploaded and stored on <strong>AWS S3</strong>, ensuring fast and reliable access across the platform.</li>
-  <li><strong>Hosting on Heroku:</strong> The platform is hosted on <strong>Heroku</strong> for scalable and efficient deployment.</li>
   <li><strong>Backend with Laravel:</strong> Efficient, secure, and scalable backend for smooth data handling and integrations.</li>
   <li><strong>Frontend with React:</strong> Fast, reactive interface that enhances user experience.</li>
+</ul>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Hosting on Heroku:</strong> The platform is hosted on <strong>Heroku</strong> for scalable and efficient deployment.</li>
 </ul>
 
 <p style="text-align: center; font-size: 18px; margin-top: 20px;">
@@ -27,4 +31,13 @@
   <li><strong>Admin Panel:</strong> Filament for Laravel</li>
   <li><strong>Image Hosting:</strong> Local (To do S3, or other)</li>
   <li><strong>Deployment:</strong> Local (To do)</li>
+</ul>
+
+
+<h3>To Do List</h3>
+<ul>
+  <li><strong>Wishlist:</strong> Favourites items or wishlist functionality</li>
+  <li><strong>Search bar:</strong> Search feature and smooth ux search experience</li>
+  <li><strong>Hosting on Heroku or AWS:</strong> The platform will be hosted on <strong>Heroku</strong> for scalable and efficient deployment.</li>
+  <li><strong>Image Hosting:</strong> Should use S3 from AWS</li>
 </ul>
