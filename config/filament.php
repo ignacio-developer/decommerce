@@ -15,7 +15,7 @@ return [
     */
 
     'branding' => [
-        'name' => 'Fruitify',
+        'name' => 'DEcommerce',
     ],
 
     'broadcasting' => [

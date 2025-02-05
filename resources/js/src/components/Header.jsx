@@ -105,7 +105,19 @@ const Header = () => {
                             )}
                         </div>
                     </div>
-                    <div className="hero__search col-lg-3">
+                    <div className="hero__search col-lg-6">
+                        <div className="hero__search">
+                            <div className="hero__search__form">
+                                <form action="#">
+                                
+                                    <input type="text" placeholder="What do you need?"/>
+                                    <button type="submit" className="site-btn">SEARCH</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    {/* 
+                    <div className="hero__search col-lg-6">
                         <div className="hero__search__form">
                             <form action="#">
                                 <div className="hero__search__categories">
@@ -118,10 +130,12 @@ const Header = () => {
                             </form>
                         </div>
                     </div>  
-
+                    */}
+                    {/*
                     <div className={`col-lg-3 header__menu ${isMobileMenuOpen ? 'open' : ''}`}>
                        
                     </div>
+                    */}
                     <div className="col-lg-3">
                         <div className="header__cart">
                             <ul>
