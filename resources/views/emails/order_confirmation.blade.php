@@ -102,7 +102,7 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>Fruitify</h1>
+        <h1>DEcommerce</h1>
         <h2>Order Confirmation</h2>
     </div>
     <div class="content">
@@ -158,7 +158,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Fruitify. All rights reserved.</p>
+        <p>&copy; 2024 DEcommerce. All rights reserved.</p>
     </div>
 </div>
 </body>

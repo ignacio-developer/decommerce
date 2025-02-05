@@ -54,7 +54,7 @@ const Header = () => {
                             <div className="header__top__left">
                                 <ul>
                                     <li>
-                                        <i className="fa fa-envelope" /> hello@fruitify.com
+                                        <i className="fa fa-envelope" /> hello@DEcommerce.com
                                     </li>
                                     <li>Free Shipping for all Orders of $99</li>
                                 </ul>

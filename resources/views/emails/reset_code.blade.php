@@ -77,7 +77,7 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>Fruitify</h1>
+        <h1>DEcommerce</h1>
         <h2>Password Reset Code</h2>
     </div>
     <div class="content">
@@ -86,7 +86,7 @@
         <p>If you did not request this reset, please ignore this email.</p>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Fruitify. All rights reserved.</p>
+        <p>&copy; 2024 DEcommerce. All rights reserved.</p>
     </div>
 </div>
 </body>

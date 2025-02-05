@@ -9,7 +9,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Fruitify</title>
+    <title>DEcommerce</title>
     <link rel="preload" href=".//images/products/bg4.jpg" as="image">
     <link rel="preload" href=".//images/products/404.jpg" as="image">
 

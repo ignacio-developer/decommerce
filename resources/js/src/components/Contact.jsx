@@ -148,7 +148,7 @@ const Contact = () => {
                             <div className="contact__widget">
                                 <span className="icon_mail_alt" />
                                 <h4>Email</h4>
-                                <p>hello@fruitify.com</p>
+                                <p>hello@DEcommerce.com</p>
                             </div>
                         </div>
                     </div>
